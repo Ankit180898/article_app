@@ -68,14 +68,14 @@ A Flutter app that fetches and displays a list of articles from a public API.
 
 The state management in this app is implemented using GetX, which offers a reactive and lightweight approach to managing state and navigation. It simplifies the data flow by allowing controllers to manage the state of UI components and automatically update them when data changes.
 
-### ***1. Article Controller**
+### **1. Article Controller**
 - For fetching articles and searching functionality
   
-### ***2. Favourites Controller**
+### **2. Favourites Controller**
 - For saving an article as favourite
 - Displaying the saved articles
   
-### ***3. Navigation Controller**
+### **3. Navigation Controller**
 - For navigation control i.e changing page and reseting page
 
 ## Screenshots
