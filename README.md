@@ -71,11 +71,11 @@ The state management in this app is implemented using GetX, which offers a react
 ### ***1. Article Controller**
 - For fetching articles and searching functionality
   
-### ***1. Favourites Controller**
+### ***2. Favourites Controller**
 - For saving an article as favourite
 - Displaying the saved articles
   
-### ***1. Navigation Controller**
+### ***3. Navigation Controller**
 - For navigation control i.e changing page and reseting page
 
 ## Screenshots
