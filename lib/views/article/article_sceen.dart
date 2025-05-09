@@ -65,7 +65,19 @@ class ArticlesView extends StatelessWidget {
       }
 
       if (articleController.filteredArticles.isEmpty) {
-        return const Center(child: Text('No articles found'));
+        return Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Icon(Icons.search_off, size: 60, color: Colors.grey),
+              const SizedBox(width: 16),
+              const Text(
+                'No articles found',
+                style: TextStyle(fontSize: 16, color: Colors.grey),
+              ),
+            ],
+          ),
+        );
       }
 
       return RefreshIndicator(
