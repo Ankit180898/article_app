@@ -17,7 +17,7 @@ A Flutter app that fetches and displays a list of articles from a public API.
 
 1. Clone the repository:
    ```bash
-   git clone <>
+   git clone https://github.com/Ankit180898/article_app.git
    cd article_app
    ```
 
@@ -39,8 +39,6 @@ A Flutter app that fetches and displays a list of articles from a public API.
 - **Persistence**: `shared_preferences` for storing favorite articles locally.
 - **Other Libraries**:
   - `shimmer` for loading animations.
-
-## Screenshots
 
 ## Features in Detail
 
@@ -65,5 +63,36 @@ A Flutter app that fetches and displays a list of articles from a public API.
 
 ### **7. Pull to Refresh**
 - Users can refresh the list of articles by pulling down on the screen.
+
+## State management
+
+The state management in this app is implemented using GetX, which offers a reactive and lightweight approach to managing state and navigation. It simplifies the data flow by allowing controllers to manage the state of UI components and automatically update them when data changes.
+
+### ***1. Article Controller**
+- For fetching articles and searching functionality
+  
+### ***1. Favourites Controller**
+- For saving an article as favourite
+- Displaying the saved articles
+  
+### ***1. Navigation Controller**
+- For navigation control i.e changing page and reseting page
+
+## Screenshots
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/97f879cd-099b-4781-ad6a-367bea4e48a0" width="22%" />
+  <img src="https://github.com/user-attachments/assets/8a75894a-3106-45cb-87fb-b23552ce58c6" width="22%" />
+   <img src="https://github.com/user-attachments/assets/1df4322a-3920-4ebe-9a2e-3042093060e5" width="22%" />
+  <img src="https://github.com/user-attachments/assets/b4a79292-4fe0-4304-b93c-f5851c1e0f41" width="22%" />
+
+</p>
+
+<p float="left">
+    <img src="https://github.com/user-attachments/assets/4f5d3c36-4bd5-4dda-bef1-97c25c0ef66d" width="22%" />
+
+</p>
+
+
+
 
 
